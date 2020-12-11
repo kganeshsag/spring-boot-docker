@@ -15,7 +15,7 @@ public class Application {
 	
 	@RequestMapping("/")
 	public String home() {
-		return "Hello World - from Docker";
+		return "Hello World - from Docker - updated for CI / CD ";
 	}
 
 }
